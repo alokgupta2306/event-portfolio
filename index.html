@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alok Gupta – Event Operations &amp; Creative Direction</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+  <div class="cursor" id="cursor"></div>
+
+  <!-- NAV -->
+  <nav id="mainNav">
+    <a href="#hero" class="nav-logo">A.G.</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- SCROLL DOTS -->
+  <div class="highlight-bar" id="hlBar">
+    <div class="hb-dot active" data-section="hero"></div>
+    <div class="hb-dot" data-section="about"></div>
+    <div class="hb-dot" data-section="experience"></div>
+    <div class="hb-dot" data-section="skills"></div>
+    <div class="hb-dot" data-section="education"></div>
+    <div class="hb-dot" data-section="contact"></div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <p class="hero-eyebrow">✦ Event Operations &nbsp;•&nbsp; Creative Direction &nbsp;•&nbsp; Mumbai</p>
+    <h1 class="hero-name">
+      Alok<span>Gupta</span>
+    </h1>
+    <p class="hero-subtitle">Crafting Moments That Last a Lifetime</p>
+    <p class="hero-tagline">
+      Energetic event management professional delivering premium guest experiences
+      across Mumbai &amp; Ahmedabad — from intimate weddings to 500+ attendee festivals.
+    </p>
+    <div class="hero-cta">
+      <a href="#experience" class="btn btn-primary">View My Work</a>
+      <a href="#contact" class="btn btn-outline">Get In Touch</a>
+    </div>
+    <div class="hero-scroll">
+      <span class="scroll-text">Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-header section-header--about">
+      <span class="section-num">01</span>
+      <div class="section-line"></div>
+      <h2 class="section-title">About <em>Me</em></h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-photo-wrap">
+        <div class="photo-frame card-3d" id="photoFrame">
+          <img src="assets/alok.jpg" alt="Alok Gupta" />
+        </div>
+        <div class="photo-badge">
+          <span class="badge-num">4+</span>
+          <span class="badge-text">Live<br />Events</span>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <p class="about-lead">
+          "I turn chaotic moments into curated memories — with precision, creativity, and heart."
+        </p>
+        <p class="about-body">
+          Based in Colaba, Mumbai, I'm an event management professional who thrives in high-pressure,
+          fast-paced environments. With hands-on experience across F&amp;B coordination, guest hospitality,
+          registration management, and on-ground supervision, I bring both operational excellence and
+          creative vision to every event I'm part of.<br /><br />
+          My B.Sc. in Information Technology (CGPA 9.50) gives me a tech-savvy edge — I leverage AI
+          productivity tools and digital design to amplify event experiences. Whether I'm orchestrating
+          a 500-person college festival or a multi-day wedding celebration, I deliver with a 95%
+          satisfaction rating to prove it.
+        </p>
+        <div class="about-stats">
+          <div class="stat">
+            <div class="stat-num" data-count="4">0</div>
+            <div class="stat-label">Events Delivered</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-count="500">0</div>
+            <div class="stat-label">Attendees Led</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">95<span class="stat-pct">%</span></div>
+            <div class="stat-label">Satisfaction Rate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="exp-section">
+    <div class="section-header section-header--exp">
+      <span class="section-num">02</span>
+      <div class="section-line"></div>
+      <h2 class="section-title">My <em>Experience</em></h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="tl-date">Feb 2026</span>
+          <span class="tl-company">Twinkle Events</span>
+        </div>
+        <div class="timeline-dot tl-dot-1"></div>
+        <div class="timeline-content">
+          <h3 class="tl-role">Hospitality Executive</h3>
+          <p class="tl-loc">📍 Ahmedabad</p>
+          <p class="tl-desc">Delivered premium hospitality at a large-scale event in Ahmedabad, ensuring seamless guest experience and high service standards throughout. Managed VIP attendee coordination and resolved on-ground challenges in real time.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="tl-date">Aug 2025</span>
+          <span class="tl-company">Mittal Premier Entertainment</span>
+        </div>
+        <div class="timeline-dot tl-dot-2"></div>
+        <div class="timeline-content">
+          <h3 class="tl-role">Registration &amp; F&amp;B Coordinator</h3>
+          <p class="tl-loc">📍 Jalaram Hall, Mumbai</p>
+          <p class="tl-desc">Managed guest registration desk and F&amp;B operations — streamlined check-in flow and ensured timely food service for all attendees. Implemented efficient queue management systems to reduce wait times significantly.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="tl-date">Feb 2025</span>
+          <span class="tl-company">Miral Events</span>
+        </div>
+        <div class="timeline-dot tl-dot-3"></div>
+        <div class="timeline-content">
+          <h3 class="tl-role">Food &amp; Beverages Executive</h3>
+          <p class="tl-loc">📍 Wedding, Mumbai</p>
+          <p class="tl-desc">Oversaw multi-day wedding F&amp;B service, leading service teams to deliver a flawless dining experience within strict event timelines. Coordinated with catering vendors and maintained quality standards across all service points.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="tl-date">Nov – Dec 2024</span>
+          <span class="tl-company">Kora Kendra Ground</span>
+        </div>
+        <div class="timeline-dot tl-dot-4"></div>
+        <div class="timeline-content">
+          <h3 class="tl-role">Event Supervisor</h3>
+          <p class="tl-loc">📍 Wedding, Mumbai</p>
+          <p class="tl-desc">Supervised end-to-end operations: vendor coordination, staffing, logistics, and F&amp;B for a multi-week wedding engagement — ensuring full organisational efficiency. Led a team of 15+ staff members across multiple event days.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <span class="tl-date">2023 – 2025</span>
+          <span class="tl-company">Tarunya College Fest</span>
+        </div>
+        <div class="timeline-dot tl-dot-5"></div>
+        <div class="timeline-content">
+          <h3 class="tl-role">Creative Head &amp; Advisory Member</h3>
+          <p class="tl-loc">🎓 500+ Attendees</p>
+          <p class="tl-desc">Led decoration, poster design, stage setup and visual identity for the annual fest; guided cross-functional teams and achieved 95% attendee satisfaction rating. Served on Advisory Committee providing strategic event direction and on-day execution oversight.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-header section-header--skills">
+      <span class="section-num">03</span>
+      <div class="section-line"></div>
+      <h2 class="section-title">Skills &amp; <em>Expertise</em></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card card-3d">
+        <span class="skill-icon" aria-hidden="true">🎪</span>
+        <h3 class="skill-cat">Event Operations</h3>
+        <div class="skill-tags">
+          <span class="tag">Supervision</span>
+          <span class="tag">F&amp;B Management</span>
+          <span class="tag">Registration</span>
+          <span class="tag">Guest Hospitality</span>
+          <span class="tag">Vendor Coordination</span>
+          <span class="tag">Logistics</span>
+        </div>
+      </div>
+      <div class="skill-card card-3d">
+        <span class="skill-icon" aria-hidden="true">💻</span>
+        <h3 class="skill-cat">Tools &amp; Technology</h3>
+        <div class="skill-tags">
+          <span class="tag">MS Excel</span>
+          <span class="tag">PowerPoint</span>
+          <span class="tag">Word</span>
+          <span class="tag">Canva</span>
+          <span class="tag">Figma</span>
+          <span class="tag">ChatGPT</span>
+          <span class="tag">Gemini</span>
+          <span class="tag">Claude AI</span>
+        </div>
+      </div>
+      <div class="skill-card card-3d">
+        <span class="skill-icon" aria-hidden="true">🌐</span>
+        <h3 class="skill-cat">Languages &amp; Creative</h3>
+        <div class="skill-tags">
+          <span class="tag">English</span>
+          <span class="tag">Hindi</span>
+          <span class="tag">Marathi</span>
+          <span class="tag">Guitar</span>
+          <span class="tag">Fine Arts</span>
+          <span class="tag">Visual Design</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="exp-section">
+    <div class="section-header section-header--edu">
+      <span class="section-num">04</span>
+      <div class="section-line"></div>
+      <h2 class="section-title">My <em>Education</em></h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="edu-year">2025</div>
+        <h3 class="edu-degree">B.Sc. Information Technology</h3>
+        <p class="edu-school">Navneet College, Mumbai University</p>
+        <span class="edu-grade">CGPA: 9.50 / 10.00</span>
+      </div>
+      <div class="edu-card">
+        <div class="edu-year">2022</div>
+        <h3 class="edu-degree">Higher Secondary – Science</h3>
+        <p class="edu-school">Elphinstone College, Homi Bhabha University</p>
+        <span class="edu-grade">Completed: 2022</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements">
+    <div class="section-header section-header--ach">
+      <span class="section-num">05</span>
+      <div class="section-line"></div>
+      <h2 class="section-title">Achievements &amp; <em>Certifications</em></h2>
+    </div>
+    <div class="achieve-grid">
+      <div class="achieve-card">
+        <span class="achieve-icon" aria-hidden="true">🏆</span>
+        <div>
+          <h4 class="achieve-title">National Level Painting Competition</h4>
+          <p class="achieve-desc">3rd Place — Maharashtra State Level Fine Arts Competition (2018). Recognized for creative excellence and artistic expression at a national platform.</p>
+        </div>
+      </div>
+      <div class="achieve-card">
+        <span class="achieve-icon" aria-hidden="true">🤖</span>
+        <div>
+          <h4 class="achieve-title">AI Tools for Efficiency</h4>
+          <p class="achieve-desc">Certified by BE10x (2025). Mastered the application of modern AI tools including ChatGPT, Claude, and Gemini for enhanced productivity and workflow optimization.</p>
+        </div>
+      </div>
+      <div class="achieve-card">
+        <span class="achieve-icon" aria-hidden="true">🚀</span>
+        <div>
+          <h4 class="achieve-title">Foundations of AI &amp; Productivity</h4>
+          <p class="achieve-desc">Certified by Startup India (2025). Comprehensive understanding of AI fundamentals and its practical applications in modern professional environments.</p>
+        </div>
+      </div>
+      <div class="achieve-card">
+        <span class="achieve-icon" aria-hidden="true">📊</span>
+        <div>
+          <h4 class="achieve-title">PowerPoint Mastery</h4>
+          <p class="achieve-desc">Certified by Startup India (2025). Advanced proficiency in creating compelling visual presentations, data visualization, and professional pitch decks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="contact-inner">
+      <h2 class="contact-big">
+        Let's Create<br /><em>Something</em> Remarkable
+      </h2>
+      <p class="contact-sub">
+        Looking to collaborate on an event, seeking a passionate hospitality professional,<br />
+        or just want to talk creativity? I'd love to connect.
+      </p>
+      <div class="contact-links">
+        <a href="tel:+917208567930" class="contact-link">
+          <span class="cl-label">📞 Phone</span>
+          <span class="cl-value">+91-7208567930</span>
+        </a>
+        <a href="mailto:Alokgupta7208@gmail.com" class="contact-link">
+          <span class="cl-label">✉️ Email</span>
+          <span class="cl-value">Alokgupta7208@gmail.com</span>
+        </a>
+        <a href="#" class="contact-link">
+          <span class="cl-label">📍 Location</span>
+          <span class="cl-value">Colaba, Mumbai – 400005</span>
+        </a>
+      </div>
+      <div class="contact-divider"></div>
+      <a href="mailto:Alokgupta7208@gmail.com" class="btn btn-primary btn-send">
+        ✦ &nbsp; Send a Message
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="footer-text">© 2025 Alok Gupta &nbsp;•&nbsp; All Rights Reserved</span>
+    <span class="footer-logo">A.G.</span>
+    <span class="footer-text">Crafted with precision in Mumbai</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
